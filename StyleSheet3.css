@@ -1,0 +1,47 @@
+﻿body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 20px;
+}
+
+h2 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+form#form1 {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 25px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+/* GridView styling */
+.gridview {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+    .gridview th, .gridview td {
+        padding: 10px;
+        border: 1px solid #dee2e6;
+        text-align: left;
+    }
+
+    .gridview th {
+        background-color: #007bff;
+        color: white;
+    }
+
+/* Center the canvas */
+#ratingsChart {
+    display: block;
+    margin: 0 auto 40px auto;
+    max-width: 100%;
+    height: auto;
+}
